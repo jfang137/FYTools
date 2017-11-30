@@ -1,0 +1,16 @@
+PODS:
+  - FYTools (1.0.1)
+
+DEPENDENCIES:
+  - FYTools (from `../src`)
+
+EXTERNAL SOURCES:
+  FYTools:
+    :path: "../src"
+
+SPEC CHECKSUMS:
+  FYTools: e05e0663fe7011163bdf0d7c8a2a1f5d48b47b95
+
+PODFILE CHECKSUM: afc6dcc150d4ad186d3336a626ea486995460b05
+
+COCOAPODS: 1.2.1
