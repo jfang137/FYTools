@@ -11,6 +11,8 @@
 		76A1C205E1E97DB2410778104D737F02 /* FYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D62F347D7D85A27B614D02B30FD5D87B /* FYUtils.m */; };
 		7FD22460CB35C6A2C3E86EA822AE17ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		A3AF7EDFC384BE4789BF0CAA401601B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		A3F04C471FD009050047D2A1 /* FYSimpleTableController.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F04C451FD009050047D2A1 /* FYSimpleTableController.h */; };
+		A3F04C481FD009050047D2A1 /* FYSimpleTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F04C461FD009050047D2A1 /* FYSimpleTableController.m */; };
 		DC8672DBE4A2DA1264C1DFF24F9A0E74 /* FYUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8239C98577B264CD351701252D6C6EB7 /* FYUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA333FDC3D2EC56DD267F863D88AAD3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		F04E5C7C8DBA0CD126655FDDE82011E8 /* Pods-FYToolsSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 221EA3EDA6579F3782C812E1A4C7287E /* Pods-FYToolsSample-dummy.m */; };
@@ -38,6 +40,8 @@
 		865ED8D88A5F2544DCF7840C6BA33908 /* Pods-FYToolsSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FYToolsSample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3F04C441FD0007A0047D2A1 /* FYDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYDefines.h; sourceTree = "<group>"; };
+		A3F04C451FD009050047D2A1 /* FYSimpleTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYSimpleTableController.h; sourceTree = "<group>"; };
+		A3F04C461FD009050047D2A1 /* FYSimpleTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYSimpleTableController.m; sourceTree = "<group>"; };
 		AF8A9E61FD9C3707BF68BABB7660E37E /* Pods-FYToolsSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYToolsSample.debug.xcconfig"; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C9A1BB2250792E8C9EAD4FC1E2192C80 /* FYTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYTools.xcconfig; sourceTree = "<group>"; };
@@ -152,6 +156,8 @@
 			children = (
 				8239C98577B264CD351701252D6C6EB7 /* FYUtils.h */,
 				D62F347D7D85A27B614D02B30FD5D87B /* FYUtils.m */,
+				A3F04C451FD009050047D2A1 /* FYSimpleTableController.h */,
+				A3F04C461FD009050047D2A1 /* FYSimpleTableController.m */,
 				A3F04C441FD0007A0047D2A1 /* FYDefines.h */,
 				28A6F6FC442279D1EF10E30E65D58247 /* Support Files */,
 			);
@@ -166,6 +172,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3F04C471FD009050047D2A1 /* FYSimpleTableController.h in Headers */,
 				DC8672DBE4A2DA1264C1DFF24F9A0E74 /* FYUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +256,7 @@
 			files = (
 				6E227360150DAC3CA7AD8083F88BEBBF /* FYTools-dummy.m in Sources */,
 				76A1C205E1E97DB2410778104D737F02 /* FYUtils.m in Sources */,
+				A3F04C481FD009050047D2A1 /* FYSimpleTableController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
