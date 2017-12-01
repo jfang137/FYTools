@@ -11,5 +11,7 @@
 @interface FYUtils : NSObject
 
 + (void)performSel:(SEL)selector target:(id)target;
++ (UIColor *)rgbColor:(NSUInteger)rgbValue;
++ (UIColor *)rgbColor:(NSUInteger)rgbValue alpha:(CGFloat)alpha;
 
 @end

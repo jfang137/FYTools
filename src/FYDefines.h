@@ -8,4 +8,8 @@
 #ifndef FYDefines_h
 #define FYDefines_h
 
+#import "FYUtils.h"
+
+#define FYGRBColor(v) [FYUtils rgbColor:v]
+
 #endif /* FYDefines_h */
